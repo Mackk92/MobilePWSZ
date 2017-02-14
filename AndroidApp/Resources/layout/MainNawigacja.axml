@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+      android:text="Nawiguj do rektoratu na ul. 3 Maja 17"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttoNav3Maja" />
+    <Button
+      android:text="Nawiguj do budynku dydaktycznego na ul. Mechaników 3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttonNavMech3" />
+    <Button
+      android:text="Nawiguj do budynku dydaktycznego  i Domu Studenta ul. Obrońców Wisły 1920r. 21/25"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttoNavWisla21" />
+    <AndroidApp.ScaleImageView
+      android:layout_marginLeft="1dp"
+      android:layout_width="350dp"
+      android:layout_height="300dp"
+      android:id="@+id/ImageViewPlanMapNav"
+      android:src="@drawable/MapaPWSZ1"
+      android:scaleType="fitCenter" />
+  </LinearLayout>
+</ScrollView>

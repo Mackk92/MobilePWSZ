@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="Welcome">Witaj</string>
+  
+  <string name="News">Aktualności</string>
+  <string name="Log_in">Zaloguj się</string>
+  <string name="Register">Zarejestruj się</string>
+  <string name="Remember">Zapamiętaj</string>
+  <string name="Index">nr Indeksu</string>
+  <string name="Password">Hasło</string>
+  <string name="Forget_Password">Zapomniałem hasła</string>
+  <string name="Current_Classes">AKTUALNE ZAJĘCIA:</string>
+  <string name="No_Classes">Brak zajęć</string>
+  <string name="Next_Classes">NASTĘPNE ZAJĘCIA:</string>
+  <string name="Schedule">Plan zajęć</string>
+  <string name="Timetable">Terminarz</string>
+  <string name="Map_Of_School">Mapa uczelni</string>
+  <string name="Navigation">Nawigacja</string>
+  <string name="Contacts_And_Consultations">Kontakty i dyżury</string>
+  <string name="Settings">Ustawienia</string>
+  <string name="About_App">O Aplikacji</string>
+  <string name="Log_Out">Wyloguj się</string>
+  <string name="Change_Password">Zmień hasło</string>
+  <string name="New_Password">Nowe hasło</string>
+  <string name="Old_Password">Stare hasło</string>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">PWSZ Mobile</string>
+  <string name="dyzury_prompt">Wybierz Zakład</string>
+  <string-array name="dyzury_array">
+    <item>Wybierz Zakład</item>
+    <item>Zakład Administracji</item>
+    <item>Zakład Zarządzania</item>
+    <item>Zakład Informatyki</item>
+    <item>Zakład Mechaniki i Budowy Maszyn</item>
+    <item>Instytut Nauk o Zdrowiu</item>
+    <item>Studium Wychowania Fizycznego i Sportu</item>
+    <item>Zakładu Filologii Angielskiej, Pedagogiki, kierunku Nowe media i e-biznes oraz Studium Języków Obcych</item>
+  </string-array>
+</resources>

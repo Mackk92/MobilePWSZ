@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:minWidth="25px"
+              android:minHeight="25px">
+
+  <ProgressBar Progress=""
+               android:id="@+id/progress"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:progressDrawable="@drawable/progress" />
+  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fillViewport="true"
+              android:id="@+id/LoginView">
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <EditText
+        android:layout_marginTop="200dp"
+        android:hint="index"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/index" />
+      <EditText
+        android:hint="hasło"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass1" />
+      <EditText
+        android:hint="hasło"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass2" />
+      <EditText
+        android:hint="e-mail"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email" />
+      <CheckBox
+        android:id="@+id/checkZapamR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zapamiętaj" />
+      <Button
+        android:text="Zarejestruj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRej" />
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:screenOrientation="portrait"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:windowNoTitle="true">
+    <ProgressBar
+        Progress=""
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:progressDrawable="@drawable/progress" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:id="@+id/LoginView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginLeft="35dp"
+                android:layout_width="280dp"
+                android:layout_height="235dp"
+                android:id="@+id/demoImageView"
+                android:src="@drawable/Icon"
+                android:scaleType="fitCenter" />
+            <CheckBox
+                android:id="@+id/checkZapam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Remember" />
+            <EditText
+                android:layout_marginTop="5dp"
+                android:hint="@string/Index"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8551"
+                android:id="@+id/index" />
+            <EditText
+                android:text="9185"
+                android:hint="@string/Password"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pass" />
+            <Button
+                android:padding="16dp"
+                android:drawableStart="@drawable/Unlocked"
+                android:text="@string/Log_in"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLog" />
+            <Button
+                android:padding="16dp"
+                android:drawableStart="@drawable/User_Card"
+                android:text="@string/Register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonRej" />
+            <TextView
+                android:text="@string/Forget_Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonReset" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

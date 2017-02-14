@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="News">News</string>
+  <string name="Welcome">Welcome</string>
+  <string name="Log_in">Log in</string>
+  <string name="Register">Register</string>
+  <string name="Remember">Remember</string>
+  <string name="Index">Index</string>
+  <string name="Password">Password</string>
+  <string name="Forget_Password">Forget Password</string>
+  <string name="Current_Classes">Current classes</string>
+  <string name="No_Classes">No classes</string>
+  <string name="Next_Classes">Next classes</string>
+  <string name="Schedule">Schedule</string>
+  <string name="Timetable">Timetable</string>
+  <string name="Map_Of_School">Map of school</string>
+  <string name="Navigation">Navigation</string>
+  <string name="Contacts_And_Consultations">Contacts and consultations</string>
+  <string name="Settings">Settings</string>
+  <string name="About_App">About app</string>
+  <string name="Log_Out">Log out</string>
+  <string name="Change_Password">Change password</string>
+  <string name="New_Password">New passwordt</string>
+  <string name="Old_Password">Old password</string>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">PWSZ Mobile</string>
+  <string name="dyzury_prompt">Select facility</string>
+  <string-array name="dyzury_array">
+    <item>Select facility</item>
+    <item>Administration </item>
+    <item>Management</item>
+    <item>Computer science</item>
+    <item>Mechanical engineering</item>
+    <item>Institute of Health Sciences</item>
+    <item>Department of Physical Education and Sport</item>
+    <item>English studies, Pedagogy, new media and e-business and the Department of Foreign Languages</item>
+  </string-array>
+</resources>

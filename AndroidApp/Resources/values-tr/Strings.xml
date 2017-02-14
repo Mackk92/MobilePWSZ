@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+  <string name="News">Haber</string>
+  <string name="Welcome">Hoşgeldiniz</string>
+  <string name="Log_in">Oturum aç</string>
+  <string name="Register">Kayıt olmak</string>
+  <string name="Remember">Hatırlamak</string>
+  <string name="Index">İndeks</string>
+  <string name="Password">Parola</string>
+  <string name="Forget_Password">Şifreyi unut</string>
+  <string name="Current_Classes">Mevcut sınıflar</string>
+  <string name="No_Classes">Sınıf yok</string>
+  <string name="Next_Classes">Sonraki sınıflar</string>
+  <string name="Schedule">Zamanlama</string>
+  <string name="Timetable">Masa saati</string>
+  <string name="Map_Of_School">Okul haritası</string>
+  <string name="Navigation">Navigasyon</string>
+  <string name="Contacts_And_Consultations">Rehber ve danışma</string>
+  <string name="Settings">Ayarlar</string>
+  <string name="About_App">Uygulama hakkında</string>
+  <string name="Log_Out">Çıkış Yap</string>
+  <string name="Change_Password">Şifre değiştir</string>
+  <string name="New_Password">Yeni şifre</string>
+  <string name="Old_Password">Eski şifre</string>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">PWSZ Mobile</string>
+  <string name="dyzury_prompt">Wybierz Zakład</string>
+  <string-array name="dyzury_array">
+    <item>Wybierz Zakład</item>
+    <item>Zakładu Administracji</item>
+    <item>Zakładu Zarządzania</item>
+    <item>Zakładu Informatyki</item>
+    <item>Zakładu Mechaniki i budowy maszyn</item>
+    <item>Instytutu Nauk o Zdrowiu</item>
+    <item>Studium Wychowania Fizycznego i Sportu</item>
+    <item>Zakładu Fiilologii Angielskiej, Pedagogiki, kierunku Nowe media i e-biznes oraz Studium Języków Obcych</item>
+  </string-array>
+</resources>

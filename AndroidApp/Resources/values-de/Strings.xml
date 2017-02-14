@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="Welcome">Witaj</string>
+  
+  <string name="News">Nachrichten</string>
+  <string name="Log_in">Einloggen</string>
+  <string name="Register">Registrieren</string>
+  <string name="Remember">Merken</string>
+  <string name="Index">Index</string>
+  <string name="Password">Kennwort</string>
+  <string name="Forget_Password">Ich habe mein Passwort vergessen</string>
+  <string name="Current_Classes">AKTUELLE LEKTION:</string>
+  <string name="No_Classes">Keine Klassen</string>
+  <string name="Next_Classes">NÄCHSTE LEKTIO:</string>
+  <string name="Schedule">der Stundenplan</string> 
+  <string name="Timetable">Zeitplan</string>
+  <string name="Map_Of_School">Lageplan der Universität</string>
+  <string name="Navigation">Navigation</string>
+  <string name="Contacts_And_Consultations">Kontakte und sterben Pflicht der Lehrer</string>
+  <string name="Settings">Einstellunge</string>
+  <string name="About_App">Über Anwendungs</string>
+  <string name="Log_Out">Logout</string>
+  <string name="Change_Password">Ändern Sie Ihr Passwort</string>
+  <string name="New_Password">Neues Passwort</string>
+  <string name="Old_Password">Altes Passwort</string>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">PWSZ Mobile</string>
+  <string name="dyzury_prompt">Wählen Sie Abteilung</string>
+  <string-array name="dyzury_array">
+    <item>Wählen Sie Abteilung</item>
+    <item>Administration</item>
+    <item>Management</item>
+    <item>Informatik</item>
+    <item>Maschinenbau</item>
+    <item>Institut für Gesundheitswissenschaften</item>
+    <item>Institut für Physikalische Bildung und Sport</item>
+    <item>Englische Philologie, Pädagogik, Neue Medien und E-Business und der Abteilung für Fremdsprachen</item>
+  </string-array>
+</resources>

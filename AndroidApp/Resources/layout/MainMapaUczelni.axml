@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+      android:text="Budynek na Mechaników 20"
+      android:textSize="20dp"
+      android:textColor="#00ff00"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TextMap1" />
+    <Button
+      android:text="Piwnica"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:id="@+id/buttonPiwnica" />
+    <Button
+      android:text="Parter"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:id="@+id/buttonParter" />
+    <Button
+      android:text="I piętro"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:id="@+id/buttonIpietro" />
+    <Button
+      android:text="II piętro"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:id="@+id/buttonIIpietro" />
+    <Button
+      android:text="III piętro"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:id="@+id/buttonIIIpietro" />
+    <Button
+      android:text="IV piętro"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:id="@+id/buttonIVpietro" />
+    <TextView
+      android:text="Budynek na Zawiślu"
+      android:textSize="20dp"
+      android:textColor="#00ff00"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TextMap1" />
+    <Button
+      android:text="Dom studenta"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:id="@+id/buttonZawDomStud" />
+    <Button
+      android:text="Parter"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:id="@+id/buttonZawparter" />
+    <Button
+      android:text="I piętro"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:id="@+id/buttonZawIpietro" />
+    <Button
+      android:text="II piętro"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:id="@+id/buttonZawIIpietro" />
+  </LinearLayout>
+</ScrollView>

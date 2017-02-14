@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="@string/Current_Classes"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Tex1" />
+        <TextView
+            android:text="@string/No_Classes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextNow" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+        <TextView
+            android:text="@string/Next_Classes"
+            android:textStyle="bold"
+            android:textColor="#00ff00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Tex2" />
+        <TextView
+            android:text="Loading..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextNext" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+        <Button
+            android:drawableStart="@drawable/light"
+            android:text="@string/News"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNews" />
+        <Button
+            android:drawableStart="@drawable/Calendar"
+            android:text="@string/Schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonPlan7" />
+        <Button
+            android:drawableStart="@drawable/Flag"
+            android:text="@string/Timetable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonTerminarz" />
+        <Button
+            android:drawableStart="@drawable/map"
+            android:text="@string/Map_Of_School"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonMapaUczelni" />
+        <Button
+            android:drawableStart="@drawable/nav"
+            android:text="@string/Navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNav" />
+        <Button
+            android:drawableStart="@drawable/contact"
+            android:text="@string/Contacts_And_Consultations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonKontakty" />
+        <Button
+            android:drawableStart="@drawable/settings"
+            android:text="@string/Settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonUstaw" />
+        <Button
+            android:drawableStart="@drawable/info"
+            android:text="@string/About_App"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonOprogramie" />
+        <Button
+            android:drawableStart="@drawable/Lock"
+            android:text="@string/Log_Out"
+            android:textColor="#00ff00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonWyloguj" />
+    </LinearLayout>
+</ScrollView>

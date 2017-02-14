@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+   
+        <TextView
+      android:text="Prorektor ds. nauczania i studentów"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="dr Robert Musiałkiewicz 
+pokój: 10 "
+      
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1" />
+	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.728-310-549" />
+		  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:robert.musialkiewicz@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Instytut Humanistyczny - Dyrektor"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="dr Paweł Sobierajski
+pokój: 209"                    
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson2" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.600-986-541" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:pawel.sobierajski@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Instytut Humanistyczny - Sekretariat"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="mgr Renata Deskiewicz
+pokój:210"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.668-075-498" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:renata.deskiewicz@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Zakład Pedagogiki - Kierownik"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="dr Karolina Kaszlińska
+pokój:214"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.662-255-258" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:karolina.kaszlinska@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Zakład Filologii Angielskiej  - Kierownik"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="mgr Marta Szczepaniak
+pokój:214"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.662-255-248" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:marta.szczepaniak@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Centrum Studiów Podyplomowych i Doskonalenia Zawodowego"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="mgr Ilona Rojewska
+pokój:17"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.668-075-543" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:ilona.rojewska@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Studium Języków Obcych - Kierownik"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="mgr Agnieszka Rojewska
+pokój:215"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.668-075-498" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:agnieszka.rojewska@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Instytut Nauk Społecznych i Technicznych - Dyrektor"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="dr inż. Małgorzata Wiśniewska
+pokój:120"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.668-075-492" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:malgorzata.wisniewska@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+                <TextView
+      android:text="Sekretariat Studium Wychowania Fizycznego i Sportu"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text=" mgr Justyna Kociuba
+pokój:431"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.696-724-467" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:justyna.kociuba@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Sekretariat Instytutu Nauk o Zdrowiu"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="mgr Justyna Kociuba
+pokój:431"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.696-724-467" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:justyna.kociuba@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Sekretariat Instytutu Nauk Społecznych i Technicznych"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="mgr Jowita Zielińska
+pokój:121"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.668-075-492" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:jowita.zielinska@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Sekretariat Instytutu Nauk Społecznych i Technicznych"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="mgr Krystyna Tomaszewska
+pokój:121"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.668-075-496" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:krystyna.tomaszewska@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Dział Nauczania - Sprawy socjalne i studenci niepełnosp."
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="mgr Adrianna Sobczyńska
+pokój:12"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.664-907-254" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:adrianna.sobczynska@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Dział Nauczania - Praktyki studenckie"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="mgr Hanna Zawidzka
+pokój:12"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.668-075-483" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:hanna.zawidzka@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Biblioteka - Wypożyczania"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="pokój:8
+mgr Anna Borowiecka"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.668-075-530" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:anna.borowiecka@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Samorząd Studencki"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="Agata Orłowska"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.668-075-513" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:robert.musialkiewicz@pwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Kierownik Domu Studenta oraz Administrator Obiektu"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+    <TextView
+      android:text="Stanisław Wójcik"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson3" />
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.695-547-414" />
+			  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="email"
+    android:text="mail:stanislaw.wojcikpwsz.wloclawek.pl" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Portiernia na Mechaników 3"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.:695-547-414" />
+	
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+            <TextView
+      android:text="Portiernia na Zawiślu"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/TxtViewPerson1Title" />
+
+	  	  <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="phone"
+    android:text="tel.695-547-415" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dip"
+      android:background="#FF909090" />
+
+  </LinearLayout>
+</ScrollView>

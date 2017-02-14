@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">PWSZ Mobile</string>
+  <string name="dyzury_prompt">Wybierz Zakład</string>
+  <string-array name="dyzury_array">
+    <item>Wybierz Zakład</item>
+    <item>Zakładu Administracji</item>
+    <item>Zakładu Zarządzania</item>
+    <item>Zakładu Informatyki</item>
+    <item>Zakładu Mechaniki i budowy maszyn</item>
+    <item>Instytutu Nauk o Zdrowiu</item>
+    <item>Studium Wychowania Fizycznego i Sportu</item>
+    <item>Zakładu Fiilologii Angielskiej, Pedagogiki, kierunku Nowe media i e-biznes oraz Studium Języków Obcych</item>
+  </string-array>
+</resources>
