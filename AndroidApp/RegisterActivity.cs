@@ -115,11 +115,17 @@ namespace AndroidApp
                     {
                         // progress.SetCancelable(false); // disable dismiss by tapping outside of the dialog
                         //  ProgressDialog.Show(this, "£¹czenie", "Proszê czkaæ...");
-                        Toast.MakeText(this, Kierunek + ";" + Rok, ToastLength.Long).Show();
+                        
                         await agent.ValidRegister(login, Kierunek + ";"+Rok, mail);
              
 
                         Toast.MakeText(this, "Has³o zosta³o wys³ane na maila.", ToastLength.Long).Show();
+
+                        var activity2 = new Intent(this, typeof(LoginActivity));
+                       
+
+                        StartActivity(activity2);
+                        Finish();
 
 
                     }

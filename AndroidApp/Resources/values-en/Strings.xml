@@ -36,4 +36,28 @@
     <item>Department of Physical Education and Sport</item>
     <item>English studies, Pedagogy, new media and e-business and the Department of Foreign Languages</item>
   </string-array>
+
+  <string name="kierunki">Select major</string>
+  <string-array name="kierunki_array">
+    <item>Select major</item>
+    <item>Administration</item>
+    <item>Management</item>
+    <item>Computer science</item>
+    <item>Mechanical engineering</item>
+    <item>Pedagogics</item>
+    <item>Finance and Accounting</item>
+    <item>Engineering Management</item>
+    <item>English philology</item>
+    <item>Nursing</item>
+  </string-array>
+
+  <string name="rok">Select year</string>
+  <string-array name="rok_array">
+    <item>Select year</item> 
+    <item>I</item>
+    <item>II</item>
+    <item>III</item>
+    <item>IV</item>
+  </string-array>
+
 </resources>

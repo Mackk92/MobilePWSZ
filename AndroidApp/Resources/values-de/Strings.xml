@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <string name="Welcome">Witaj</string>
+  <string name="Welcome">Willkommen</string>
   
   <string name="News">Nachrichten</string>
   <string name="Log_in">Einloggen</string>
@@ -36,5 +36,30 @@
     <item>Institut für Gesundheitswissenschaften</item>
     <item>Institut für Physikalische Bildung und Sport</item>
     <item>Englische Philologie, Pädagogik, Neue Medien und E-Business und der Abteilung für Fremdsprachen</item>
+  </string-array>
+
+
+
+  <string name="kierunki">Auswahlrichtung</string>
+  <string-array name="kierunki_array">
+    <item>Auswahlrichtung</item>
+    <item>Administration</item>
+    <item>Management</item>
+    <item>Informatik</item>
+    <item>Maschinenbau</item>
+    <item>Pädagogik</item>
+    <item>Finanz und Rechnungswesen </item>
+    <item>Engineering Management</item>
+    <item>Englisch Philologie</item>
+    <item>Pflege</item>
+  </string-array>
+
+  <string name="rok">Wählen Jahr</string>
+  <string-array name="rok_array">
+    <item>Wählen Jahr</item>
+    <item>I</item>
+    <item>II</item>
+    <item>III</item>
+    <item>IV</item>
   </string-array>
 </resources>

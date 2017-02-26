@@ -29,13 +29,36 @@
   <string name="ApplicationName">PWSZ Mobile</string>
   <string name="dyzury_prompt">Wybierz Zakład</string>
   <string-array name="dyzury_array">
-    <item>Wybierz Zakład</item>
-    <item>Zakładu Administracji</item>
-    <item>Zakładu Zarządzania</item>
-    <item>Zakładu Informatyki</item>
-    <item>Zakładu Mechaniki i budowy maszyn</item>
-    <item>Instytutu Nauk o Zdrowiu</item>
-    <item>Studium Wychowania Fizycznego i Sportu</item>
-    <item>Zakładu Fiilologii Angielskiej, Pedagogiki, kierunku Nowe media i e-biznes oraz Studium Języków Obcych</item>
+    <item>Tesis seç</item>
+    <item>yönetim </item>
+    <item>Management</item>
+    <item>Bilişim</item>
+    <item>Makine mühendisliği</item>
+    <item>Sağlık Bilimleri Enstitüsü</item>
+    <item>Beden Eğitimi ve Spor Bölümü</item>
+    <item>İngilizce Çalışmaları, Eğitim, yeni medya ve e-İş ve Diller Obcyc Yüksekokulu Bölümü</item>
+  </string-array>
+
+  <string name="kierunki">Yön seç</string>
+  <string-array name="kierunki_array">
+    <item>Yön seç</item>
+    <item>yönetim</item>
+    <item>Management</item>
+    <item>Bilişim</item>
+    <item>Makine mühendisliği</item>
+    <item>Eğitim</item>
+    <item>Finans ve Muhasebe</item>
+    <item>Mühendislik yönetimi</item>
+    <item>İngilizce Filoloji</item>
+    <item>hemşirelik</item>
+  </string-array>
+
+  <string name="rok">Yıl seçin</string>
+  <string-array name="rok_array">
+    <item>Yıl seçin</item>
+    <item>I</item>
+    <item>II</item>
+    <item>III</item>
+    <item>IV</item>
   </string-array>
 </resources>

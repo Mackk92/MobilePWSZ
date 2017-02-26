@@ -29,24 +29,25 @@ namespace AndroidApp
 
             // Create your application here
             SetContentView(Resource.Layout.Main);
-
+            ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
+            GetSharedPreferences("TylkoMkirko@", FileCreationMode.Private);
+            string client = prefs.GetString("login", "null");
             ServiceAgent agentCheck = new ServiceAgent();
 
             // LessonPlan plan = 
-            agentCheck.ValidPlanUpdate("Informatyka", "III");
+            agentCheck.ValidPlanUpdate(client, "III");
 
             string PlanUpdate = agentCheck.PlanUpdated;
             PlanDetails = PlanUpdate;
-            if (PlanUpdate != "0")
+
+            if (PlanUpdate != "0" & PlanUpdate.Length<15)
             {
                 addNotification();
                 Toast.MakeText(this, "UWAGA ! Plan Zaktualizowany:  " + PlanUpdate, ToastLength.Long).Show();
             }
 
 
-            ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
-            GetSharedPreferences("TylkoMkirko@", FileCreationMode.Private);
-            string client = prefs.GetString("login", "null");
+    
 
 
             Toast.MakeText(this, "Zalogowano jako " + client, ToastLength.Long).Show();
