@@ -2,7 +2,19 @@
 
 <resources>
   <string name="Welcome">Willkommen</string>
-  
+
+  <string name="ResetHasła">Ihr Passwort zurücksetzen</string>
+  <string name="Rejestracja">Anmeldung</string>
+  <string name="DodajWydarzenie">Event hinzufügen</string>
+  <string name="Plan12">Zeitplan für 12 Tage</string>
+  <string name="Oprogramie">Über Programm</string>
+  <string name="Nawigacja">Navigation</string>
+  <string name="Plan">Plan</string>
+  <string name="PlanPietra">Etagenplan</string>
+  <string name="MapaUczelni">Lageplan der Universität</string>
+  <string name="MapaBudynkow">Karte Gebäude</string>
+  <string name="Dyzury">Aufgaben Dozenten</string>
+  <string name="Contacts">Verhältnis</string>
   <string name="News">Nachrichten</string>
   <string name="Log_in">Einloggen</string>
   <string name="Register">Registrieren</string>
@@ -17,7 +29,7 @@
   <string name="Timetable">Zeitplan</string>
   <string name="Map_Of_School">Lageplan der Universität</string>
   <string name="Navigation">Navigation</string>
-  <string name="Contacts_And_Consultations">Kontakte und sterben Pflicht der Lehrer</string>
+  <string name="Contacts_And_Consultations">Kontakte, sterben Pflicht der Lehrer und Prüfungssession</string>
   <string name="Settings">Einstellunge</string>
   <string name="About_App">Über Anwendungs</string>
   <string name="Log_Out">Logout</string>

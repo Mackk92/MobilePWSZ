@@ -72,7 +72,7 @@ namespace AndroidApp
             ProgressBar probar = (ProgressBar) FindViewById(Resource.Id.progress);
             
             ServiceAgent agent = new ServiceAgent();
-            ActionBar.Title = "Rejestracja";
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.Rejestracja);
             probar.Visibility = ViewStates.Gone;
             probar.IndeterminateDrawable.SetColorFilter(Color.ParseColor("#ff0000"),
                 Android.Graphics.PorterDuff.Mode.SrcAtop);

@@ -24,7 +24,7 @@ namespace AndroidApp
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.MainTerminarzDodaj);
-            ActionBar.Title = "Dodaj wydarzenie";
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.DodajWydarzenie);
             EditText editTutul = (EditText) FindViewById(Resource.Id.tytul);
 
             EditText editTresc = (EditText) FindViewById(Resource.Id.tresc);

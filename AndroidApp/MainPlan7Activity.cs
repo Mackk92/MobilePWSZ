@@ -29,7 +29,7 @@ namespace AndroidApp
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.MainPlan7);
-            ActionBar.Title = "Plan na 12 dni";
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.Plan12);
             Button butGetPlan = (Button) FindViewById(Resource.Id.buttonGetPlan);
             ListView ListView = (ListView) FindViewById(Resource.Id.listViewPlan7);
 

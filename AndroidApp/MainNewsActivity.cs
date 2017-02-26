@@ -20,7 +20,7 @@ namespace AndroidApp
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.MainNews);
             // Create your application here
-            ActionBar.Title = "News";
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.News);
 
             TextView news1 = (TextView) FindViewById(Resource.Id.TxtNews1);
             TextView news2 = (TextView) FindViewById(Resource.Id.TxtNews2);

@@ -2,7 +2,18 @@
 
 <resources>
 
-
+  <string name="ResetHasła">Parolanızı sıfırlayın</string>
+  <string name="Rejestracja">Kayıt</string>
+  <string name="DodajWydarzenie">Etkinlik ekle</string>
+  <string name="Plan12">12 gün boyunca Planı</string>
+  <string name="Oprogramie">Hakkında</string>
+  <string name="Nawigacja">Navigasyon</string>
+  <string name="Plan">Plan</string>
+  <string name="PlanPietra">Kat haritası</string>
+  <string name="MapaUczelni">Üniversite Haritası</string>
+  <string name="MapaBudynkow">Harita Binalar</string>
+  <string name="Dyzury">Görevleri öğretim görevlisi</string>
+  <string name="Contacts">Ilişkiler</string>
   <string name="News">Haber</string>
   <string name="Welcome">Hoşgeldiniz</string>
   <string name="Log_in">Oturum aç</string>
@@ -18,7 +29,7 @@
   <string name="Timetable">Masa saati</string>
   <string name="Map_Of_School">Okul haritası</string>
   <string name="Navigation">Navigasyon</string>
-  <string name="Contacts_And_Consultations">Rehber ve danışma</string>
+  <string name="Contacts_And_Consultations">Rehber, danışma ve sınav oturumu</string>
   <string name="Settings">Ayarlar</string>
   <string name="About_App">Uygulama hakkında</string>
   <string name="Log_Out">Çıkış Yap</string>

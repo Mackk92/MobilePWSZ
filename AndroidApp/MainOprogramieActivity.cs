@@ -21,9 +21,9 @@ namespace AndroidApp
 
           
             SetContentView(Resource.Layout.MainOprogramie);
-            
+
             // Create your application here
-            ActionBar.Title = "O programie";
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.Oprogramie);
         }
     }
 }

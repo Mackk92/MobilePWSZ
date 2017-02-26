@@ -22,7 +22,7 @@ namespace AndroidApp
             Button butDyz = (Button)FindViewById(Resource.Id.buttonDyzuryMain);
             Button butKon = (Button)FindViewById(Resource.Id.buttonKontaktyMain);
             // Create your application here
-            ActionBar.Title = "Kontakty i Dy¿ury";
+            ActionBar.Title = GetString(Resource.String.Contacts_And_Consultations);
             butDyz.Click += delegate
             {
                 var activity2 = new Intent(this, typeof(MainKontaktyDyzuryActivity));

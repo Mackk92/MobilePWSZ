@@ -19,7 +19,8 @@ namespace AndroidApp
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.MainNawigacja);
             // Create your application here
-            ActionBar.Title = "Nawigacja";
+        
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.Nawigacja);
             Button but3maj = (Button) FindViewById(Resource.Id.buttoNav3Maja);
             Button butmech3 = (Button) FindViewById(Resource.Id.buttonNavMech3);
             Button butwisla = (Button) FindViewById(Resource.Id.buttoNavWisla21);

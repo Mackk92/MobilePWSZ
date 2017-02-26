@@ -2,7 +2,19 @@
 
 <resources>
   <string name="Welcome">Witaj</string>
-  
+
+  <string name="ResetHasła">Reset hasła</string>
+  <string name="Rejestracja">Rejestracja</string>
+  <string name="DodajWydarzenie">Dodaj wydarzenie</string>
+  <string name="Plan12">Plan na 12 dni</string>
+  <string name="Oprogramie">O programie</string>
+  <string name="Nawigacja">Nawigacja</string>
+  <string name="Plan">Plan</string>
+  <string name="PlanPietra">Plan Piętra</string>
+  <string name="MapaUczelni">Mapa Uczelni</string>
+  <string name="MapaBudynkow">Mapa Budynków</string>
+  <string name="Dyzury">Dyżury</string>
+  <string name="Contacts">Kontakty</string>
   <string name="News">Aktualności</string>
   <string name="Log_in">Zaloguj się</string>
   <string name="Register">Zarejestruj się</string>
@@ -17,7 +29,7 @@
   <string name="Timetable">Terminarz</string>
   <string name="Map_Of_School">Mapa uczelni</string>
   <string name="Navigation">Nawigacja</string>
-  <string name="Contacts_And_Consultations">Kontakty i dyżury</string>
+  <string name="Contacts_And_Consultations">Kontakty, dyżury i sesja egzaminacyjna</string>
   <string name="Settings">Ustawienia</string>
   <string name="About_App">O Aplikacji</string>
   <string name="Log_Out">Wyloguj się</string>

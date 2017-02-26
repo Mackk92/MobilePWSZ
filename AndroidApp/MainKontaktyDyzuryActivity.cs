@@ -18,7 +18,7 @@ namespace AndroidApp
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.MainKontaktyDyzury);
-            ActionBar.Title = "Dy¿ury";
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.Dyzury);
             // _img = (ScaleImageView)FindViewById(Resource.Id.ImageDyzury);
             //_img.Visibility = ViewStates.Invisible;
             Spinner spinner = FindViewById<Spinner>(Resource.Id.spinner);

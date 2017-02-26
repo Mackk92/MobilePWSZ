@@ -1,6 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+  <string name="ResetHasła">Reset password</string>
+  <string name="Rejestracja">Registration</string>
+  <string name="DodajWydarzenie">Add event</string>
+  <string name="Plan12">Schedule for 12 days</string>
+  <string name="Oprogramie">About program</string>
+  <string name="Nawigacja">navigation</string>
+  <string name="Plan">Plan</string>
+  <string name="PlanPietra">Floor map</string>
+  <string name="MapaUczelni">Map of the University</string>
+  <string name="MapaBudynkow">Map Buildings</string>
+  <string name="Dyzury">Duties teachers</string>
+  <string name="Contacts">Contacts</string>
   <string name="News">News</string>
   <string name="Welcome">Welcome</string>
   <string name="Log_in">Log in</string>
@@ -16,7 +27,7 @@
   <string name="Timetable">Timetable</string>
   <string name="Map_Of_School">Map of school</string>
   <string name="Navigation">Navigation</string>
-  <string name="Contacts_And_Consultations">Contacts and consultations</string>
+  <string name="Contacts_And_Consultations">Contacts, consultations and examination session</string>
   <string name="Settings">Settings</string>
   <string name="About_App">About app</string>
   <string name="Log_Out">Log out</string>

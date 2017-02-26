@@ -15,11 +15,9 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:prompt="@string/dyzury_prompt" />
-      <WebView xmlns:android="http://schemas.android.com/apk/res/android"
-      android:layout_width="fill_parent"
-      android:layout_height="fill_parent"
-      android:id="@+id/LocalWebView">
-      </WebView>
+        <WebView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/LocalWebView" />
     </LinearLayout>
-
 </ScrollView>

@@ -23,8 +23,7 @@ namespace AndroidApp
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.MainTerminarz);
             // Create your application here
-
-            ActionBar.Title = "Terminarz ";
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.Timetable);
             ListView ListView = (ListView) FindViewById(Resource.Id.listTerminarz);
             Button butdodWyd = (Button) FindViewById(Resource.Id.buttoDodajWydarzenie);
             Button butgetSesja = (Button) FindViewById(Resource.Id.buttonGeSesja);

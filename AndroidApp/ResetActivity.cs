@@ -68,8 +68,7 @@ namespace AndroidApp
             // Create your application here
             SetContentView(Resource.Layout.Reset);
 
-
-            ActionBar.Title = "Reset has³a";
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.ResetHas³a);
             View ResView = (View)FindViewById(Resource.Id.LoginView);
             EditText index = (EditText)FindViewById(Resource.Id.index);
             EditText email = (EditText)FindViewById(Resource.Id.email);

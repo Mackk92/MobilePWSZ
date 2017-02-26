@@ -23,11 +23,13 @@ namespace AndroidApp
 
             //SetContentView(Resource.Layout.);
             SetContentView(Resource.Layout.MainMapaUczelniView);
-            ActionBar.Title = "Plan piêtra";
+ 
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.PlanPietra);
             ScaleImageView img = (ScaleImageView) FindViewById(Resource.Id.ImageViewPlan);
             // ImageView img = (ImageView) FindViewById(Resource.Id.ImageViewPlan);
             Button butWroc = (Button) FindViewById(Resource.Id.buttonWroc);
-            ActionBar.Title = "Plan ";
+   
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.Plan);
 
             butWroc.Click += delegate
             {

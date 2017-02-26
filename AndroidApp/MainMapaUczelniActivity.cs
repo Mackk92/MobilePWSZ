@@ -17,11 +17,11 @@ namespace AndroidApp
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            ActionBar.Title = "Mapa Budynków";
             // Create your application here
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.MapaBudynkow);
 
             SetContentView(Resource.Layout.MainMapaUczelni);
-            ActionBar.Title = "Mapa Uczelni";
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.MapaUczelni);
 
 
             Button butMechPiwinca = (Button) FindViewById(Resource.Id.buttonPiwnica);

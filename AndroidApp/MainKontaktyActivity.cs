@@ -25,12 +25,12 @@ namespace AndroidApp
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.MainKontakty);
-            ActionBar.Title = "Kontakty ";
+            ActionBar.Title = ActionBar.Title = GetString(Resource.String.Contacts);
             // Create your application here
 
-       
-           
-           
+
+
+
         }
     }
 }

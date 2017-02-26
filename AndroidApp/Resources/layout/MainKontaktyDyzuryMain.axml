@@ -17,6 +17,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/buttonKontaktyMain" />
-       
+      <Button
+          android:text="Sesja egzaminacyjna"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/buttonSesjaEgzaminacyjnaMain" />
     </LinearLayout>
 </ScrollView>
