@@ -14,4 +14,28 @@
     <item>Studium Wychowania Fizycznego i Sportu</item>
     <item>Zakładu Fiilologii Angielskiej, Pedagogiki, kierunku Nowe media i e-biznes oraz Studium Języków Obcych</item>
   </string-array>
+
+  <string name="kierunki">Wybierz Kierunek</string>
+  <string-array name="kierunki_array">
+    <item>Wybierz Kierunek</item>
+    <item>Administracja</item>
+    <item>Zarządzanie</item>
+    <item>Informatyka</item>
+    <item>Mechanika i budowa maszyn</item>
+    <item>Pedagogika</item>
+    <item>Finanse i rachunkowość </item>
+    <item>Inżynieria zarządzania</item>
+    <item>Filologia angielska</item>
+    <item>Pielęgniarstwo</item>
+  </string-array>
+
+  <string name="rok">Wybierz Rok</string>
+  <string-array name="rok_array">
+    <item>Wybierz Rok</item>
+    <item>I</item>
+    <item>II</item>
+    <item>III</item>
+    <item>IV</item>
+  </string-array>
+  
 </resources>

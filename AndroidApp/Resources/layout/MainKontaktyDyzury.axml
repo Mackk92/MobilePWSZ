@@ -17,7 +17,7 @@
             android:prompt="@string/dyzury_prompt" />
         <android.webkit.WebView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"           
+            android:layout_height="wrap_content"
             android:id="@+id/webView1" />
     </LinearLayout>
 </ScrollView>

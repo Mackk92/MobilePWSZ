@@ -33,7 +33,7 @@ namespace AndroidApp
             ServiceAgent agentCheck = new ServiceAgent();
 
             // LessonPlan plan = 
-            agentCheck.ValidPlanUpdate("Informatyka", "IV");
+            agentCheck.ValidPlanUpdate("Informatyka", "III");
 
             string PlanUpdate = agentCheck.PlanUpdated;
             PlanDetails = PlanUpdate;
@@ -139,24 +139,37 @@ namespace AndroidApp
             agent.ValidPlan(login, now);
 
             LessonPlan kek = agent.GetPlan();
-            foreach (Lesson l in kek.Lessons)
+
+            if (kek == null)
             {
-                if (l.SpecialtyId.Equals("NOW"))
+                Toast.MakeText(this, "Brak Planu ", ToastLength.Long).Show();
+
+            }
+            else
+            {
+                try
                 {
-                    nowTXT.Text = l.LessonName + Environment.NewLine + "Rozpoczêcie:" + l.StartTime + " Zakoñczenie" +
-                                  l.EndTime + "Sala:" + l.RoomNumber +
-                                  Environment.NewLine + l.Instructor;
+                    foreach (Lesson l in kek.Lessons)
+                    {
+                        if (l.SpecialtyId.Equals("NOW"))
+                        {
+                            nowTXT.Text = l.LessonName + Environment.NewLine + "Rozpoczêcie:" + l.StartTime + " Zakoñczenie" +
+                                          l.EndTime + "Sala:" + l.RoomNumber +
+                                          Environment.NewLine + l.Instructor;
+                        }
+                        if (l.SpecialtyId.Equals("NEXT"))
+                        {
+                            nextTXT.Text = l.LessonName + Environment.NewLine + "Rozpoczêcie:" + l.StartTime + " Zakoñczenie" +
+                                           l.EndTime + "Sala:" + l.RoomNumber +
+                                           Environment.NewLine + l.Instructor;
+                        }
+                        else
+                        {
+                            //nextTXT.Text = "brak";
+                        }
+                    }
                 }
-                if (l.SpecialtyId.Equals("NEXT"))
-                {
-                    nextTXT.Text = l.LessonName + Environment.NewLine + " Rozpoczêcie:" + l.StartTime + " Zakoñczenie" +
-                                   l.EndTime + "Sala:" + l.RoomNumber +
-                                   Environment.NewLine + l.Instructor;
-                }
-                else
-                {
-                    //nextTXT.Text = "brak";
-                }
+                catch (Exception e) { Toast.MakeText(this, "Brak Planu ", ToastLength.Long).Show(); }
             }
         }
 
@@ -165,8 +178,8 @@ namespace AndroidApp
         {
             // Instantiate the builder and set notification elements:
             Notification.Builder builder = new Notification.Builder(this)
-                .SetContentTitle("Zmina planu !")
-                .SetContentText("Uwaga nast¹pi³a zmiana Twojego plany " + PlanDetails)
+                .SetContentTitle("Nat¹pi³a zmiana planu !")
+                .SetContentText("Aktualizacja z dnia " + PlanDetails)
                 .SetSmallIcon(Resource.Drawable.Icon);
 
             // Build the notification:

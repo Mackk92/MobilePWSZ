@@ -77,6 +77,12 @@ namespace AndroidApp
 			// aapt resource value: 0x7f0c0000
 			public const int dyzury_array = 2131492864;
 			
+			// aapt resource value: 0x7f0c0001
+			public const int kierunki_array = 2131492865;
+			
+			// aapt resource value: 0x7f0c0002
+			public const int rok_array = 2131492866;
+			
 			static Array()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -1784,8 +1790,8 @@ namespace AndroidApp
 			// aapt resource value: 0x7f0b0058
 			public const int buttonReset = 2131427416;
 			
-			// aapt resource value: 0x7f0b00a7
-			public const int buttonReset21 = 2131427495;
+			// aapt resource value: 0x7f0b00a5
+			public const int buttonReset21 = 2131427493;
 			
 			// aapt resource value: 0x7f0b005f
 			public const int buttonTerminarz = 2131427423;
@@ -1823,9 +1829,6 @@ namespace AndroidApp
 			// aapt resource value: 0x7f0b0053
 			public const int checkZapam = 2131427411;
 			
-			// aapt resource value: 0x7f0b00a6
-			public const int checkZapamR = 2131427494;
-			
 			// aapt resource value: 0x7f0b0039
 			public const int checkbox = 2131427385;
 			
@@ -1859,8 +1862,8 @@ namespace AndroidApp
 			// aapt resource value: 0x7f0b0043
 			public const int edit_query = 2131427395;
 			
-			// aapt resource value: 0x7f0b00a5
-			public const int email = 2131427493;
+			// aapt resource value: 0x7f0b00a3
+			public const int email = 2131427491;
 			
 			// aapt resource value: 0x7f0b001a
 			public const int end = 2131427354;
@@ -1943,12 +1946,6 @@ namespace AndroidApp
 			// aapt resource value: 0x7f0b0055
 			public const int pass = 2131427413;
 			
-			// aapt resource value: 0x7f0b00a3
-			public const int pass1 = 2131427491;
-			
-			// aapt resource value: 0x7f0b00a4
-			public const int pass2 = 2131427492;
-			
 			// aapt resource value: 0x7f0b0050
 			public const int progress = 2131427408;
 			
@@ -2023,6 +2020,9 @@ namespace AndroidApp
 			
 			// aapt resource value: 0x7f0b006a
 			public const int spinner = 2131427434;
+			
+			// aapt resource value: 0x7f0b00a4
+			public const int spinner1 = 2131427492;
 			
 			// aapt resource value: 0x7f0b0007
 			public const int split_action_bar = 2131427335;
@@ -2309,77 +2309,77 @@ namespace AndroidApp
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050028
-			public const int About_App = 2131034152;
+			// aapt resource value: 0x7f05002a
+			public const int About_App = 2131034154;
 			
 			// aapt resource value: 0x7f050015
 			public const int ApplicationName = 2131034133;
 			
-			// aapt resource value: 0x7f05002a
-			public const int Change_Password = 2131034154;
+			// aapt resource value: 0x7f05002c
+			public const int Change_Password = 2131034156;
 			
-			// aapt resource value: 0x7f050026
-			public const int Contacts_And_Consultations = 2131034150;
+			// aapt resource value: 0x7f050028
+			public const int Contacts_And_Consultations = 2131034152;
 			
-			// aapt resource value: 0x7f05001f
-			public const int Current_Classes = 2131034143;
+			// aapt resource value: 0x7f050021
+			public const int Current_Classes = 2131034145;
 			
-			// aapt resource value: 0x7f05001e
-			public const int Forget_Password = 2131034142;
+			// aapt resource value: 0x7f050020
+			public const int Forget_Password = 2131034144;
 			
 			// aapt resource value: 0x7f050014
 			public const int Hello = 2131034132;
 			
-			// aapt resource value: 0x7f05001c
-			public const int Index = 2131034140;
-			
-			// aapt resource value: 0x7f050029
-			public const int Log_Out = 2131034153;
-			
-			// aapt resource value: 0x7f050019
-			public const int Log_in = 2131034137;
-			
-			// aapt resource value: 0x7f050024
-			public const int Map_Of_School = 2131034148;
-			
-			// aapt resource value: 0x7f050025
-			public const int Navigation = 2131034149;
+			// aapt resource value: 0x7f05001e
+			public const int Index = 2131034142;
 			
 			// aapt resource value: 0x7f05002b
-			public const int New_Password = 2131034155;
-			
-			// aapt resource value: 0x7f050018
-			public const int News = 2131034136;
-			
-			// aapt resource value: 0x7f050021
-			public const int Next_Classes = 2131034145;
-			
-			// aapt resource value: 0x7f050020
-			public const int No_Classes = 2131034144;
-			
-			// aapt resource value: 0x7f05002c
-			public const int Old_Password = 2131034156;
-			
-			// aapt resource value: 0x7f05001d
-			public const int Password = 2131034141;
-			
-			// aapt resource value: 0x7f05001a
-			public const int Register = 2131034138;
+			public const int Log_Out = 2131034155;
 			
 			// aapt resource value: 0x7f05001b
-			public const int Remember = 2131034139;
+			public const int Log_in = 2131034139;
 			
-			// aapt resource value: 0x7f050022
-			public const int Schedule = 2131034146;
+			// aapt resource value: 0x7f050026
+			public const int Map_Of_School = 2131034150;
 			
 			// aapt resource value: 0x7f050027
-			public const int Settings = 2131034151;
+			public const int Navigation = 2131034151;
+			
+			// aapt resource value: 0x7f05002d
+			public const int New_Password = 2131034157;
+			
+			// aapt resource value: 0x7f05001a
+			public const int News = 2131034138;
 			
 			// aapt resource value: 0x7f050023
-			public const int Timetable = 2131034147;
+			public const int Next_Classes = 2131034147;
 			
-			// aapt resource value: 0x7f050017
-			public const int Welcome = 2131034135;
+			// aapt resource value: 0x7f050022
+			public const int No_Classes = 2131034146;
+			
+			// aapt resource value: 0x7f05002e
+			public const int Old_Password = 2131034158;
+			
+			// aapt resource value: 0x7f05001f
+			public const int Password = 2131034143;
+			
+			// aapt resource value: 0x7f05001c
+			public const int Register = 2131034140;
+			
+			// aapt resource value: 0x7f05001d
+			public const int Remember = 2131034141;
+			
+			// aapt resource value: 0x7f050024
+			public const int Schedule = 2131034148;
+			
+			// aapt resource value: 0x7f050029
+			public const int Settings = 2131034153;
+			
+			// aapt resource value: 0x7f050025
+			public const int Timetable = 2131034149;
+			
+			// aapt resource value: 0x7f050019
+			public const int Welcome = 2131034137;
 			
 			// aapt resource value: 0x7f050000
 			public const int abc_action_bar_home_description = 2131034112;
@@ -2440,6 +2440,12 @@ namespace AndroidApp
 			
 			// aapt resource value: 0x7f050016
 			public const int dyzury_prompt = 2131034134;
+			
+			// aapt resource value: 0x7f050017
+			public const int kierunki = 2131034135;
+			
+			// aapt resource value: 0x7f050018
+			public const int rok = 2131034136;
 			
 			// aapt resource value: 0x7f050013
 			public const int status_bar_notification_info_overflow = 2131034131;
