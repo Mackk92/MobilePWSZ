@@ -31,6 +31,12 @@ namespace AndroidApp
             spinner.Adapter = adapter;
             spinner.SetSelection(0);
 
+
+
+        //    WebView localWebView = FindViewById<WebView>(Resource.Id.LocalWebView);
+        //    localWebView.SetWebViewClient(new WebViewClient());
+         //   localWebView.LoadUrl("https://www.pwsz.wloclawek.pl/2013-05-10-07-29-18/plan-zajec");
+
         }
 
       
@@ -46,47 +52,59 @@ namespace AndroidApp
 
             string Temp43 = string.Format("{0}", spinner.GetItemAtPosition(e.Position));
             
-            if (Temp43== "Zak³adu Administracji")
+            if (Temp43== "Zak³ad Administracji")
             {
-                var uri = Android.Net.Uri.Parse("https://www.pwsz.wloclawek.pl/images/Wykaz_dyzurow_sem._zimowy_16-17.pdf");
-                var intent = new Intent(Intent.ActionView, uri);
-                StartActivity(intent);
+        
+                WebView localWebView = FindViewById<WebView>(Resource.Id.LocalWebView);
+                localWebView.Settings.JavaScriptEnabled = true;
+                String pdf = "https://www.pwsz.wloclawek.pl/images/Wykaz_dyzurow_sesja_zimowa_A_16-17.pdf";
+                localWebView.LoadUrl("http://drive.google.com/viewerng/viewer?embedded=true&url=" + pdf);
             }
-            if (Temp43 == "Zak³adu Zarz¹dzania")
+            if (Temp43 == "Zak³ad Zarz¹dzania")
             {
-                var uri = Android.Net.Uri.Parse("https://www.pwsz.wloclawek.pl/images/Wykaz_dy%C5%BCur%C3%B3w_zz_w_sem._zim._2016-17.pdf");
-                var intent = new Intent(Intent.ActionView, uri);
-                StartActivity(intent);
+                WebView localWebView = FindViewById<WebView>(Resource.Id.LocalWebView);
+                localWebView.Settings.JavaScriptEnabled = true;
+                String pdf = "https://www.pwsz.wloclawek.pl/images/zarz%C4%85dzanie_2016-17.pdf";
+                localWebView.LoadUrl("http://drive.google.com/viewerng/viewer?embedded=true&url=" + pdf);
             }
-            if (Temp43 == "Zak³adu Informatyki")
-            {
-                var uri = Android.Net.Uri.Parse("https://www.pwsz.wloclawek.pl/images/Wykaz_dy%C5%BCur%C3%B3w_Inf._w_sem._zim._2016-17.pdf");
-                var intent = new Intent(Intent.ActionView, uri);
-                StartActivity(intent);
+            if (Temp43 == "Zak³ad Informatyki")
+            { 
+               
+                WebView localWebView = FindViewById<WebView>(Resource.Id.LocalWebView);
+                localWebView.Settings.JavaScriptEnabled = true;
+                String pdf = "https://www.pwsz.wloclawek.pl/images/informatyka_2016-17.pdf";
+                localWebView.LoadUrl("http://drive.google.com/viewerng/viewer?embedded=true&url=" + pdf);
             }
-            if (Temp43 == "Zak³adu Mechaniki i budowy maszyn")
+            if (Temp43 == "Zak³ad Mechaniki i budowy maszyn")
             {
-                var uri = Android.Net.Uri.Parse("https://www.pwsz.wloclawek.pl/images/Wykaz_dy%C5%BCur%C3%B3w_sem._zimowy_16-17_MiBM.pdf");
-                var intent = new Intent(Intent.ActionView, uri);
-                StartActivity(intent);
+                // var uri = Android.Net.Uri.Parse("https://www.pwsz.wloclawek.pl/images/Wykaz_dy%C5%BCur%C3%B3w_sem._zimowy_16-17_MiBM.pdf");
+                // var intent = new Intent(Intent.ActionView, uri);
+                // StartActivity(intent);
+                // WebView localWebView = FindViewById<WebView>(Resource.Id.LocalWebView);
+                //localWebView.Settings.JavaScriptEnabled = true;
+                // String pdf = "https://www.pwsz.wloclawek.pl/images/Wykaz_dy%C5%BCur%C3%B3w_sesja_zimowa_16-17_MiBM.pdf";
+                //localWebView.LoadUrl("http://drive.google.com/viewerng/viewer?embedded=true&url=" + pdf);
+                Toast.MakeText(this, "Dy¿ury dla tego zak³adu bêd¹ dostêpne wkrótce ", ToastLength.Long).Show();
             }
-            if (Temp43 == "Instytutu Nauk o Zdrowiu")
+            if (Temp43 == "Instytut Nauk o Zdrowiu")
             {
-                var uri = Android.Net.Uri.Parse("https://www.pwsz.wloclawek.pl/images/student/dyzury_2016-17_zima.pdf");
-                var intent = new Intent(Intent.ActionView, uri);
-                StartActivity(intent);
+                Toast.MakeText(this, "Dy¿ury dla tego zak³adu bêd¹ dostêpne wkrótce ", ToastLength.Long).Show();
             }
             if (Temp43 == "Studium Wychowania Fizycznego i Sportu")
             {
-                var uri = Android.Net.Uri.Parse("https://www.pwsz.wloclawek.pl/images/student/Dy%C5%BCury_semestr_2016-17_zima.pdf");
-                var intent = new Intent(Intent.ActionView, uri);
-                StartActivity(intent);
+          
+                WebView localWebView = FindViewById<WebView>(Resource.Id.LocalWebView);
+                localWebView.Settings.JavaScriptEnabled = true;
+                String pdf = "https://www.pwsz.wloclawek.pl/images/student/Dy%C5%BCury_semestr_2016-17_lato.pdf";
+                localWebView.LoadUrl("http://drive.google.com/viewerng/viewer?embedded=true&url=" + pdf);
             }
-            if (Temp43 == "Zak³adu Fiilologii Angielskiej, Pedagogiki, kierunku Nowe media i e-biznes oraz Studium Jêzyków Obcych")
+            if (Temp43 == "Zak³ad Filologii Angielskiej, Pedagogiki, kierunku Nowe media i e-biznes oraz Studium Jêzyków Obcych")
             {
-                var uri = Android.Net.Uri.Parse("https://www.pwsz.wloclawek.pl/images/Dy%C5%BCury_semestr_zima_16-17_17_listop.pdf");
-                var intent = new Intent(Intent.ActionView, uri);
-                StartActivity(intent);
+                WebView localWebView = FindViewById<WebView>(Resource.Id.LocalWebView);
+                localWebView.Settings.JavaScriptEnabled = true;
+                String pdf = "https://www.pwsz.wloclawek.pl/images/Dy%C5%BCury_SESJA_zima_16-17_3.pdf";
+                localWebView.LoadUrl("http://drive.google.com/viewerng/viewer?embedded=true&url=" + pdf);
+          
             }
 
 

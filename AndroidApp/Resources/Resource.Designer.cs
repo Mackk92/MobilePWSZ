@@ -1604,6 +1604,9 @@ namespace AndroidApp
 			// aapt resource value: 0x7f0b007e
 			public const int ImageViewPlanMapNav = 2131427454;
 			
+			// aapt resource value: 0x7f0b006b
+			public const int LocalWebView = 2131427435;
+			
 			// aapt resource value: 0x7f0b0051
 			public const int LoginView = 2131427409;
 			
@@ -2080,9 +2083,6 @@ namespace AndroidApp
 			
 			// aapt resource value: 0x7f0b0012
 			public const int useLogo = 2131427346;
-			
-			// aapt resource value: 0x7f0b006b
-			public const int webView1 = 2131427435;
 			
 			// aapt resource value: 0x7f0b0020
 			public const int withText = 2131427360;

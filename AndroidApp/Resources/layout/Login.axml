@@ -24,15 +24,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-          <ImageView
+            <ImageView
                 android:layout_marginLeft="35dp"
                 android:layout_width="340dp"
                 android:layout_height="235dp"
                 android:id="@+id/demoImageView"
                 android:src="@drawable/Icon"
                 android:scaleType="fitCenter" />
- 
-              
             <CheckBox
                 android:id="@+id/checkZapam"
                 android:layout_width="wrap_content"
@@ -43,10 +41,10 @@
                 android:hint="@string/Index"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="8551"
+                android:text="8481"
                 android:id="@+id/index" />
             <EditText
-                android:text="admin1"
+                android:text="2738"
                 android:hint="@string/Password"
                 android:inputType="textPassword"
                 android:layout_width="match_parent"

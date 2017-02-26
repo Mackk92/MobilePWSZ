@@ -20,12 +20,22 @@ namespace AndroidApp
         public int Blad = 1;
         public string Kierunek = "";
         public string Rok = "";
+        bool checkSpinners = true;
         private void spinner_ItemSelected1(object sender, AdapterView.ItemSelectedEventArgs e)
         {
             Spinner spinner = (Spinner)sender;
 
             string Temp43 = string.Format("{0}", spinner.GetItemAtPosition(e.Position));
+            if(e.Position==0)
+            {
+                
+                checkSpinners = false;
+            }
+            else
+            {
+                checkSpinners = true;
 
+            }
             Rok = Temp43;
 
         }
@@ -36,7 +46,16 @@ namespace AndroidApp
             Spinner spinner = (Spinner)sender;
 
             string Temp43 = string.Format("{0}", spinner.GetItemAtPosition(e.Position));
+            if (e.Position == 0)
+            {
+               
+                checkSpinners = false;
+            }
+            else
+            {
+                checkSpinners = true;
 
+            }
             Kierunek = Temp43;
         }
 
@@ -111,7 +130,7 @@ namespace AndroidApp
                         check = false;
                         RegisterValidCheck = 0;
                     }
-                    if (check)
+                    if (check & checkSpinners)
                     {
                         // progress.SetCancelable(false); // disable dismiss by tapping outside of the dialog
                         //  ProgressDialog.Show(this, "£¹czenie", "Proszê czkaæ...");
@@ -119,7 +138,7 @@ namespace AndroidApp
                         await agent.ValidRegister(login, Kierunek + ";"+Rok, mail);
              
 
-                        Toast.MakeText(this, "Has³o zosta³o wys³ane na maila.", ToastLength.Long).Show();
+                        Toast.MakeText(this, "Has³o zosta³o wys³ane na e-maila.", ToastLength.Long).Show();
 
                         var activity2 = new Intent(this, typeof(LoginActivity));
                        
@@ -150,6 +169,10 @@ namespace AndroidApp
                 if (Blad == 0)
                 {
                     Toast.MakeText(this, "B³¹d logowanie (Ju¿ siê rejestrowa³eœ ?)", ToastLength.Long).Show();
+                }
+                if (checkSpinners == false)
+                {
+                    Toast.MakeText(this, "Wybierz Kierunek i Rok", ToastLength.Long).Show();
                 }
 
             };

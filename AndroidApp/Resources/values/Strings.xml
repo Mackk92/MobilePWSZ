@@ -6,13 +6,13 @@
   <string name="dyzury_prompt">Wybierz Zakład</string>
   <string-array name="dyzury_array">
     <item>Wybierz Zakład</item>
-    <item>Zakładu Administracji</item>
-    <item>Zakładu Zarządzania</item>
-    <item>Zakładu Informatyki</item>
-    <item>Zakładu Mechaniki i budowy maszyn</item>
-    <item>Instytutu Nauk o Zdrowiu</item>
+    <item>Zakład Administracji</item>
+    <item>Zakład Zarządzania</item>
+    <item>Zakład Informatyki</item>
+    <item>Zakład Mechaniki i budowy maszyn</item>
+    <item>Instytut Nauk o Zdrowiu</item>
     <item>Studium Wychowania Fizycznego i Sportu</item>
-    <item>Zakładu Fiilologii Angielskiej, Pedagogiki, kierunku Nowe media i e-biznes oraz Studium Języków Obcych</item>
+    <item>Zakład Fiilologii Angielskiej, Pedagogiki, kierunku Nowe media i e-biznes oraz Studium Języków Obcych</item>
   </string-array>
 
   <string name="kierunki">Wybierz Kierunek</string>
